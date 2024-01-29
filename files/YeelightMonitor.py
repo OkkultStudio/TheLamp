@@ -39,7 +39,7 @@ while True:
     # update the bytes_sent and bytes_recv for next iteration
     bytes_sent, bytes_recv = io_2.bytes_sent, io_2.bytes_recv
     
-    bulb = Bulb("192.168.1.110")
+    bulb = Bulb("192.168.1.113")
     bulb.set_brightness(100)
         
     if ds > 100000:
